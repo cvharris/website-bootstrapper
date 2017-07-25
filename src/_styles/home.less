@@ -37,6 +37,10 @@
   }
 }
 
+#top-splash {
+  // background-image: url(denver-kitchen-remodel.jpg);
+}
+
 .centered-quotations {
   text-align: center;
   font-size: 1.4rem;
@@ -82,4 +86,76 @@
       width: 225px;
     }
   }
+}
+
+#site-slogan {
+  text-align: center;
+
+  h3{
+    text-shadow: 1px 1px @blue-darker, 1px -1px @blue-darker, -1px -1px @blue-darker, -1px 1px @blue-darker;
+  }
+
+}
+
+.action-button {
+  display: inline-block;
+  text-align: center;
+  font-family: @base-font-family;
+  background-color: @blue-darker;
+  color: @white;
+  line-height: 1.5;
+  font-weight: 500;
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.2), 0 6px 10px 0 rgba(0, 0, 0, 0.3);
+  padding: .3rem 3rem;
+  border-radius: .25rem;
+  transition: background-color 0.5s @timing-function, box-shadow 0.5s @timing-function;
+  margin: 0 auto 2rem auto;
+  cursor: pointer;
+  border: none;
+  outline: none;
+  -webkit-appearance: none;
+}
+
+#about-us {
+  position: relative;
+  text-align: center;
+}
+
+#contact-us {
+  position: relative;
+  text-align: center;
+}
+
+.parent {
+  width: 100%;
+  height: 240px;
+  outline: 10px solid black;
+
+  display: flex;
+
+  flex-direction: row;
+
+  justify-content: space-between;
+}
+
+.child {
+  width: 50px;
+  height: 50px;
+  border: 1px solid #14b16f;
+}
+
+.child-2 {
+  flex-grow: 2;
+}
+
+.child-4 {
+  flex-grow: 2;
+}
+
+#logo-background {
+  display: block;
+  margin: 0 auto;
+  background: rgba(255,255,255,.9);
+  padding: 2rem 3.5rem;
+  max-height: 250px;
 }
